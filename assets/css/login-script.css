@@ -1,0 +1,55 @@
+.login-button{
+    margin-top: 10px;
+}
+.btn-justify{
+    display: flex;
+}
+.btn-justify button{
+    flex-basis: 100%;
+}
+.input-xs{
+    min-height: 33px;
+    padding: 4px 12px;
+    border-radius: 2px;
+}
+.input-sm{
+    min-height: 40px;
+    padding: 5px 14px;
+    border-radius: 2px;
+}
+.input-med{
+    min-height: 47px;
+    padding: 6px 16px;
+    border-radius: 4px;
+}
+.input-lg{
+    min-height: 59px;
+    padding: 7px 20px;
+    border-radius: 5px;
+}
+.input-xlg{
+    min-height: 72px;
+    padding: 8px 24px;
+    border-radius: 6px;
+}
+.btn-xs{
+    padding: 10px 20px;
+    border-radius: 2px;
+}
+.btn-sm{
+    padding: 12px 24px;
+    border-radius: 2px;
+}
+
+.btn-md{
+    padding: 15px 30px;
+    border-radius: 2px;
+}
+.btn-lg{
+    padding: 20px 40px;
+    border-radius: 2px;
+}
+.btn-xlg{
+    padding: 25px 50px;
+    border-radius: 2px;
+}
