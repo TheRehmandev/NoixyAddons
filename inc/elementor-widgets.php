@@ -88,6 +88,8 @@ class Widgets {
 	 */
 	private function include_widgets_files() {
 		require_once LOGIN_SCRIPTS_PLUGIN_PATH . 'widgets/elementor/login_widget.php';
+		require_once LOGIN_SCRIPTS_PLUGIN_PATH . 'widgets/elementor/register_widget.php';
+		require_once LOGIN_SCRIPTS_PLUGIN_PATH . 'widgets/elementor/posts_widget.php';
 	}
     /**
 	 * Register Widgets
@@ -103,6 +105,8 @@ class Widgets {
 		$this->include_widgets_files();
 
         \Elementor\Plugin::instance()->widgets_manager->register_widget_type( new Widgets\login_widget() );
+        \Elementor\Plugin::instance()->widgets_manager->register_widget_type( new Widgets\register_widget() );
+        \Elementor\Plugin::instance()->widgets_manager->register_widget_type( new Widgets\posts_widget() );
     
     }
 }

@@ -46,6 +46,7 @@ final class LOGIN_SCRIPTS
         $this->register_styles();
         $this->include_files();
         $this->load_elementor_widgets();
+        // $this->register_redirection();
     }
 
     public function register_scripts()
@@ -67,6 +68,7 @@ final class LOGIN_SCRIPTS
     public function include_files()
     {
         require_once(LOGIN_SCRIPTS_PLUGIN_PATH . 'inc/render_login_form.php');
+        require_once(LOGIN_SCRIPTS_PLUGIN_PATH . 'inc/redirect.php');
     }
 
 

@@ -1,6 +1,9 @@
 .login-button{
     margin-top: 10px;
 }
+.register-button{
+    margin-top: 10px;
+}
 .btn-justify{
     display: flex;
 }
